@@ -1,6 +1,6 @@
 <script setup>
 import { useForm } from '@inertiajs/vue3'
-import AppLayout from '@/Layouts/AppLayout.vue' // adjust path if different
+import AppLayout from '@/layouts/AppLayout.vue'
 import { onMounted, ref } from 'vue'
 import { router } from '@inertiajs/vue3'
 
