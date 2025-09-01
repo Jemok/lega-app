@@ -116,7 +116,7 @@ const faqs = [
                     <a href="#" class="-m-1.5 p-1.5 flex items-center">
                         <ScaleIcon class="h-8 w-8 text-indigo-600" />
                         <span class="ml-2 text-lg font-bold text-gray-900 dark:text-white">
-          Justice Law Firm
+          Rossman Law
         </span>
                     </a>
                 </div>
@@ -166,7 +166,7 @@ const faqs = [
             <div class="mx-auto max-w-4xl text-center">
                 <h2 class="text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">About Us</h2>
                 <p class="mt-6 text-lg text-gray-600 dark:text-gray-400">
-                    Justice Law Firm has been serving clients for over 20 years, delivering trusted legal services with integrity and excellence. Our mission is to provide personalized representation that protects our clients’ rights and achieves their goals.
+                    Rossman Law has been serving clients for over 20 years, delivering trusted legal services with integrity and excellence. Our mission is to provide personalized representation that protects our clients’ rights and achieves their goals.
                 </p>
             </div>
         </section>
@@ -201,17 +201,17 @@ const faqs = [
                 </p>
                 <div class="mt-12 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
                     <div class="rounded-xl bg-gray-50 dark:bg-gray-800 p-6 shadow">
-                        <img src="https://via.placeholder.com/200x200" alt="Attorney 1" class="mx-auto rounded-full h-32 w-32 object-cover">
-                        <h3 class="mt-4 text-lg font-semibold text-gray-900 dark:text-white">Jane Doe</h3>
+                        <img src="images/travis.png" alt="Travis" class="mx-auto rounded-full h-32 w-32 object-cover">
+                        <h3 class="mt-4 text-lg font-semibold text-gray-900 dark:text-white">Travis Alan Rossman</h3>
                         <p class="text-gray-600 dark:text-gray-400">Senior Partner – Corporate Law</p>
                     </div>
                     <div class="rounded-xl bg-gray-50 dark:bg-gray-800 p-6 shadow">
-                        <img src="https://via.placeholder.com/200x200" alt="Attorney 2" class="mx-auto rounded-full h-32 w-32 object-cover">
+                        <img src="images/john_smith.png" alt="John Smith" class="mx-auto rounded-full h-32 w-32 object-cover">
                         <h3 class="mt-4 text-lg font-semibold text-gray-900 dark:text-white">John Smith</h3>
                         <p class="text-gray-600 dark:text-gray-400">Partner – Litigation & Disputes</p>
                     </div>
                     <div class="rounded-xl bg-gray-50 dark:bg-gray-800 p-6 shadow">
-                        <img src="https://via.placeholder.com/200x200" alt="Attorney 3" class="mx-auto rounded-full h-32 w-32 object-cover">
+                        <img src="images/emily_johnson.png" alt="Attorney 3" class="mx-auto rounded-full h-32 w-32 object-cover">
                         <h3 class="mt-4 text-lg font-semibold text-gray-900 dark:text-white">Emily Johnson</h3>
                         <p class="text-gray-600 dark:text-gray-400">Associate – Family & Immigration Law</p>
                     </div>
@@ -283,14 +283,14 @@ const faqs = [
                 </div>
                 <div>
                     <h3 class="text-white font-semibold">Contact Us</h3>
-                    <p class="mt-4">123 Main Street, Suite 400</p>
-                    <p>New York, NY 10001</p>
-                    <p>(123) 456-7890</p>
-                    <p>info@justicefirm.com</p>
+                    <p class="mt-4">220 COURT SQUARE</p>
+                    <p>BARBOURVILLE, KY 40906</p>
+                    <p>606-277-0525</p>
+<!--                    <p>travisrsm@gmail.com</p>-->
                 </div>
             </div>
             <div class="mt-8 text-center text-sm text-gray-500">
-                © 2025 Justice Law Firm. All rights reserved.
+                © 2025 Rossman Law. All rights reserved.
             </div>
         </footer>
     </div>

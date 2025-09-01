@@ -22,7 +22,7 @@ const navigation = [
                     <a href="/" class="-m-1.5 p-1.5 flex items-center">
                         <ScaleIcon class="h-8 w-8 text-indigo-600" />
                         <span class="ml-2 text-lg font-bold text-gray-900 dark:text-white">
-              Justice Law Firm
+              Rossman Law
             </span>
                     </a>
                 </div>
@@ -72,14 +72,14 @@ const navigation = [
                 </div>
                 <div>
                     <h3 class="text-white font-semibold">Contact Us</h3>
-                    <p class="mt-4">123 Main Street, Suite 400</p>
-                    <p>New York, NY 10001</p>
-                    <p>(123) 456-7890</p>
-                    <p>info@justicefirm.com</p>
+                    <p class="mt-4">220 COURT SQUARE</p>
+                    <p>BARBOURVILLE, KY 40906</p>
+                    <p>606-277-0525</p>
+<!--                    <p>travisrsm@gmail.com</p>-->
                 </div>
             </div>
             <div class="mt-8 text-center text-sm text-gray-500">
-                © 2025 Justice Law Firm. All rights reserved.
+                © 2025 Rossman Law. All rights reserved.
             </div>
         </footer>
     </div>
