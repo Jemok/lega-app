@@ -16,6 +16,8 @@ Route::post('/create-customer', [\App\Http\Controllers\PaymentController::class,
 Route::get('/payment-form/{customer_id}', [\App\Http\Controllers\PaymentController::class, 'showPaymentForm']);
 Route::post('/payments/{customer}', [\App\Http\Controllers\PaymentController::class, 'createPaymentIntent']);
 Route::get('/payments/success', fn() => inertia('Success'))->name('payments.success');
+Route::get('/payments/confirmmicrodeposits', fn() => inertia('Success'))->name('payments.success');
+
 
 
 
