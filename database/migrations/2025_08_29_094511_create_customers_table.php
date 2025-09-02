@@ -14,9 +14,11 @@ return new class extends Migration
         Schema::create('customers', function (Blueprint $table) {
             $table->id();
             $table->string('name');
-            $table->string('email')->unique();
+            $table->string('email');
             $table->string('stripe_customer_id')->nullable()->unique();
             $table->string('stripe_setup_intent_id')->nullable()->unique();
+            $table->string('stripe_account_id')->nullable();
+            $table->unique(['email', 'stripe_account_id']);
             $table->timestamps();
         });
     }

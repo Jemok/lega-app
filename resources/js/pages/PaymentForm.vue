@@ -42,7 +42,7 @@ onMounted(() => {
 const handleSubmit = async () => {
     try {
         const { setupIntent, error } = await stripe.collectBankAccountForSetup({
-            clientSecret: props.clientSecret,
+            clientSecret: props.clientSecret.toString(),
             params: {
                 payment_method_type: 'us_bank_account',
                 payment_method_data: {

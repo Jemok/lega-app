@@ -7,9 +7,14 @@ const name = ref('')
 const email = ref('')
 const successMessage = ref('')
 const amount = ref('')
+const account = ref('')
 
 const submitForm = () => {
-    router.post('/create-customer', { name: name.value, email: email.value, amount: amount.value }, {
+    router.post('/create-customer', {
+        name: name.value,
+        email: email.value,
+        amount: amount.value,
+        account: account.value}, {
         onSuccess: (page) => {
             if (page?.props?.flash?.success) {
                 successMessage.value = page?.props?.flash?.success
@@ -26,6 +31,17 @@ const submitForm = () => {
                 <h1 class="text-2xl font-bold mb-4 text-indigo-600">Pay Legal Fees</h1>
 
                 <form @submit.prevent="submitForm" class="space-y-4">
+
+                    <div>
+                        <label class="block text-gray-700 dark:text-gray-200">Account</label>
+                        <select v-model="account"
+                                class="w-full p-2 rounded bg-transparent border border-white text-white placeholder-gray-400 focus:outline-none focus:border-purple-400">
+                            <option disabled value="">Select Account</option>
+                            <option value="main">Main</option>
+                            <option value="acct_1S0i1EE8MqznGMyK">Test Account</option>
+                        </select>
+                    </div>
+
                     <div>
                         <label class="block text-gray-700 dark:text-gray-200">Name</label>
                         <input v-model="name" type="text"  class="w-full p-2 rounded bg-transparent border border-white text-white placeholder-gray-400 focus:outline-none focus:border-purple-400" required />
