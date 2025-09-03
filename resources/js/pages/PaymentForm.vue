@@ -76,7 +76,7 @@ const handleSubmit = async () => {
                     amount: amount.value,
                     payment_method: confirmed.payment_method,
                 })
-            }else if (setupIntent.next_action?.type === "verify_with_microdeposits") {
+            }else {
 // The account needs to be verified via microdeposits.
 // Display a message to consumer with next steps (consumer waits for
 // microdeposits, then enters a statement descriptor code on a page sent to them via email).

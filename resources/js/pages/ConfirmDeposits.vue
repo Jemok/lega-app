@@ -6,8 +6,8 @@ import AppLayout from '@/layouts/AppLayout.vue'
 <template>
     <AppLayout title="Payment Success">
         <div class="p-8 text-center">
-            <h1 class="text-2xl font-bold text-green-600">❗️ Please Confirm Code Sent to your Bank Account Statement</h1>
-            <p class="mt-4 text-lg">Once Verified, we will process your payment</p>
+            <h1 class="text-2xl font-bold text-green-600">❗️ Please Confirm the 6 Digit Code Sent to your Bank Account Statement.</h1>
+            <p class="mt-4 text-lg">Once Verified, we will be able to process your payments.</p>
 
 <!--            <div class="mt-6 bg-white shadow rounded-lg p-6 max-w-md mx-auto">-->
 <!--                <p class="text-gray-700">-->
