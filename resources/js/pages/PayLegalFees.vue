@@ -38,7 +38,6 @@ const submitForm = () => {
                                 class="w-full p-2 rounded bg-transparent border border-white text-white placeholder-gray-400 focus:outline-none focus:border-purple-400">
                             <option disabled value="">Select Account</option>
                             <option value="main">Main</option>
-                            <option value="acct_1S0i1EE8MqznGMyK">Test Account</option>
                         </select>
                     </div>
 
