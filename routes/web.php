@@ -9,9 +9,13 @@ Route::get('/', function () {
 
 Route::get('dashboard', function () {
 
+    \Stripe\Stripe::setApiKey(env('STRIPE_SECRET'));
 
+    $payment_intents = \Stripe\PaymentIntent::all();
 
-    return Inertia::render('Dashboard');
+    return Inertia::render('Dashboard', [
+        'payments' => $payment_intents['data']
+    ]);
 })->middleware(['auth', 'verified'])->name('dashboard');
 
 Route::get('/pay-legal-fees', [\App\Http\Controllers\PaymentController::class, 'showCreateCustomerForm']);
