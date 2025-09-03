@@ -26,8 +26,6 @@ class PaymentController extends Controller
 
         \Stripe\Stripe::setApiKey(env('STRIPE_SECRET'));
 
-        \Stripe\Stripe::setClientId(env($request->account));
-
         // 1. FirstOrCreate in our DB
         $customer = \App\Models\Customer::updateOrCreate(
             [
